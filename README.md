@@ -122,7 +122,7 @@ setTimeout(() => {
 ## <a id="Release-Note">Release Note</a>
 
 * v0.0.2 (2018-10-21)
-  * Fixed the bug on Win7 + PowerShell. (Thanks to @Joe-Kerr, #1, #2)
+  * Fixed the bug on Win7 + PowerShell. (Thanks to [@Joe-Kerr](https://github.com/Joe-Kerr), [#1](https://github.com/futomi/node-wav-player/issues/1), [#2](https://github.com/futomi/node-wav-player/pull/2))
 * v0.0.1 (2018-01-03)
   * First public release
 
