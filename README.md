@@ -36,8 +36,8 @@ $ npm install node-wav-player
 
 * [Quick Start](#Quick-Start)
 * [`WavPlayer` object](#WavPlayer-object)
-  * [play() method](#WavPlayer-play)
-  * [stop() method](#WavPlayer-stop)
+  * [play() method](#WavPlayer-play-method)
+  * [stop() method](#WavPlayer-stop-method)
 * [Release Note](#Release-Note)
 * [References](#References)
 * [License](#License)
