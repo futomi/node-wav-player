@@ -36,7 +36,7 @@ $ npm install node-wav-player
 
 * [Quick Start](#Quick-Start)
 * [`WavPlayer` object](#WavPlayer-object)
-  * [play() method](#WavPlayerPlayMethod)
+  * [play() method](#WavPlayer-play-method)
   * [stop() method](#WavPlayer-stop-method)
 * [Release Note](#Release-Note)
 * [References](#References)
@@ -71,7 +71,7 @@ const player = require('node-wav-player');
 
 In the code snippet above, the variable `player` is a `WavPlayer` object. The `WavPlayer` object has methods as described in sections below.
 
-### <a id="WavPlayerPlayMethod">play() method</a>
+### <a id="WavPlayer-play-method">play() method</a>
 
 The `play()` method plays a wav file specified to the `path` parameter. This method returns a `Promise` object.
 
