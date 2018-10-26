@@ -80,7 +80,8 @@ This method takes a hash object containing the properties as follows:
 Property | Type    | Required | Description
 :--------|:--------|:---------|:-------------------------
 `path`   | String  | Required | Path of a wav file (e.g., `"./speech.wav"`)
-`sync`   | Boolean | Optional | If `true`, this method returns after finishing to play the wav file. Otherwise, if `false`, this method returns immediately after starting to play the wav file. The default value is `false`.
+`loop`   | Boolean | Optional | If `true`, the wave file will be played repeatedly until the [`stop()`](#WavPlayer-stop-method") method is called. The default value is `false`.
+`sync`   | Boolean | Optional | If `true`, this method calls the `resove()` after finishing to play the wav file. Otherwise, if `false`, this method calles the `resolve()` immediately after starting to play the wav file. The default value is `false`. If the `loop` is set to `true`, this parameter is ignored (i.e., this parameter is set to the default value `false` ).
 
 If you want to wait for the end of the audio, you can set the `sync` to `true` as follows:
 
@@ -121,6 +122,8 @@ setTimeout(() => {
 ---------------------------------------
 ## <a id="Release-Note">Release Note</a>
 
+* v0.1.0 (2018-10-26)
+  * Added the `loop` parameter to the [`play()`](#WavPlayer-play-method) method. (Thanks to [@TmpR](https://github.com/TmpR), [#3](https://github.com/futomi/node-wav-player/issues/3))
 * v0.0.2 (2018-10-21)
   * Fixed the bug on Win7 + PowerShell. (Thanks to [@Joe-Kerr](https://github.com/Joe-Kerr), [#1](https://github.com/futomi/node-wav-player/issues/1), [#2](https://github.com/futomi/node-wav-player/pull/2))
 * v0.0.1 (2018-01-03)
