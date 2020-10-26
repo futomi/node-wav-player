@@ -122,6 +122,8 @@ setTimeout(() => {
 ---------------------------------------
 ## <a id="Release-Note">Release Note</a>
 
+* v0.2.0 (2020-10-27)
+  Added error catching to spawn child process (Thanks to [@Tmp2k](https://github.com/Tmp2k), [#7](https://github.com/futomi/node-wav-player/pull/7))
 * v0.1.0 (2018-10-26)
   * Added the `loop` parameter to the [`play()`](#WavPlayer-play-method) method. (Thanks to [@TmpR](https://github.com/TmpR), [#3](https://github.com/futomi/node-wav-player/issues/3))
 * v0.0.2 (2018-10-21)
@@ -140,7 +142,7 @@ setTimeout(() => {
 
 The MIT License (MIT)
 
-Copyright (c) 2018 Futomi Hatano
+Copyright (c) 2018 - 2020 Futomi Hatano
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
