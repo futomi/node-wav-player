@@ -14,6 +14,8 @@ This module can plays a wav file on:
     * [Ubuntu Desktop](https://www.ubuntu.com/desktop)
     * [Fedora Workstation](https://getfedora.org/en/workstation/)
     * [Raspbian Strech with Desktop](https://www.raspberrypi.org/downloads/raspbian/)
+* FreeBSD and DragonflyBSD
+  * Just like under Linux you can use ALSA's `aplay` which is in the `alsa-utils` compatibility package
 
 Basically you don't have to install any additional libraries in most environments.
 
