@@ -9,6 +9,7 @@
   "directories": {
     "lib": "./lib"
   },
+  "types": "types/wav-player.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
