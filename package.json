@@ -1,7 +1,7 @@
 {
   "name": "node-wav-player",
-  "version": "0.2.0",
-  "description": "The node-wav-player is a Node.js module which allows you to play a wav file on the host computer. It supports Windows 10, MacOS X, and some Linux distros.",
+  "version": "1.0.0",
+  "description": "The node-wav-player is a Node.js module which allows you to play a wav file on the host computer. It supports Windows 11, MacOS X, and some Linux distros.",
   "main": "./lib/wav-player.js",
   "files": [
     "lib"
